@@ -1,0 +1,28 @@
+.headermenu ul .menu-icon {
+  display: none;
+}
+
+.top h1 {
+  width:200px;
+}
+
+footer .container .pc-website {
+  width:20%;
+}
+
+footer .container .social-link {
+  width:33%;
+}
+
+footer .container .footer-menu  {
+  width:47%;
+}
+
+.container .footer-menu ul li {
+  float: none;
+}
+
+footer .container .app {
+  float:none;
+  width:250px;
+}

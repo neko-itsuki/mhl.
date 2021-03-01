@@ -1,0 +1,106 @@
+body .top {
+  position: fixed;
+  width:100%;
+  height:auto;
+  z-index: 1;
+  padding:0;
+  background:#fff;
+}
+
+.top h1 {
+  width:100%;
+  padding:15px 15px 12px 15px;
+  margin:0;
+}
+
+.top h1 img {
+  width:180px;
+}
+
+body .headermenu ul li:not(:first-child),
+body .headermenu ul .break-1,
+body .top .menu {
+  display:none;
+}
+
+
+body .headermenu {
+  height:0;
+}
+
+body .headermenu ul {
+  padding-right:15px;
+}
+
+body .headermenu ul li:first-child{
+  padding-right:10px;
+  letter-spacing: 0;
+}
+
+body .headermenu ul li:first-child a{
+  letter-spacing: 0;
+}
+
+.headermenu ul .menu-icon {
+  display: block;
+  border: none;
+  height:15px;
+  width:22px;
+  padding:0;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.headermenu ul .menu-icon p {
+  height:1px;
+  width:100%;
+  background:#828282;
+}
+
+.headermenu ul .menu-icon p:nth-child(2) {
+  margin:5px 0;
+}
+
+body section {
+  padding:115px 15px 0;
+  width:100%;
+}
+
+body section img {
+  padding:0;
+  margin:0;
+}
+
+.youtube {
+  padding:0;
+}
+
+.autoimg {
+  margin-bottom: 85px;
+}
+
+.lookbook ul {
+  margin-bottom:0;
+}
+
+.img-women,
+.img-men {
+  margin:0;
+  width:100%;
+  float:none;
+}
+
+.lookbook .lookbook-text {
+  display:none;
+}
+
+.lookbook > a {
+  display:none;
+}
+
+.lookbook .women,
+.lookbook .men {
+  display:block;
+  margin:20px 0 60px;
+  font-size:12px;
+}
